@@ -1,5 +1,6 @@
 package classes
 
-class Greeter {
-
+class Greeter(prefix: String, suffix: String) {
+  def greet(name: String): Unit =
+    println(prefix + name + suffix)
 }
