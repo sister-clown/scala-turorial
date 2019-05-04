@@ -1,4 +1,4 @@
-package upper.`type`.bounds
+package upper.types.bounds
 
 abstract class Animal {
   def name: String
